@@ -3,18 +3,44 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: # leave blank to use full name automatically
+
+first_name: Vaibhav
+last_name: Bajpai
+
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  I welcome research collaborations and discussions related to AI for
+  mathematical reasoning, formal verification, and graph theory
+  formalization in Lean 4 (Mathlib). The best way to reach me is via email.
+
+description: >
+  PhD candidate and Research Assistant at TU Bergakademie Freiberg,
+  specializing in the evaluation of large language models for mathematical
+  reasoning and the development of AI-driven formal verification systems.
+  My research focuses on bridging natural language mathematical reasoning
+  with machine-checkable proofs.
+
+  ProofBench is a research initiative aimed at establishing a rigorous
+  benchmark for evaluating AI systems on mathematical proof generation.
+
+  My work involves developing the ProofBench infrastructure and repository,
+  implementing Structured Chain-of-Thought (SCoT) reasoning frameworks,
+  curating datasets of Lean 4 formalizations for research-level theorems,
+  and building evaluation pipelines to benchmark frontier AI models on
+  formal reasoning and proof-generation accuracy.
+
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+  <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+
+keywords: artificial-intelligence, machine-learning, formal-verification,
+          automated-theorem-proving, lean4, mathematical-reasoning,
+          proofbench, graph-theory, llm-evaluation
+
+lang: en
+
+icon: 🧠
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
