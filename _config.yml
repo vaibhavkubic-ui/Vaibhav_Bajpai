@@ -32,13 +32,12 @@ keywords: artificial-intelligence, machine-learning, formal-verification,
 
 profile:
   align: right
-  image: profile.jpg   # Ensure this file exists in assets/img/
+  image: Vaibhav_Bajpai.jpeg   # Ensure this file exists in assets/img/
   image_circular: false
 
 # Replace with your actual username from the screenshot
 url: https://vaibhavkubic-ui.github.io 
 baseurl: "" 
-
 # -----------------------------------------------------------------------------
 # Features
 # -----------------------------------------------------------------------------
