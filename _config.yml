@@ -38,11 +38,15 @@ keywords: artificial-intelligence, machine-learning, formal-verification,
           automated-theorem-proving, lean4, mathematical-reasoning,
           proofbench, graph-theory, llm-evaluation
 
-lang: en
+layout: about
+title: about
+extra_main_info: "PhD Candidate @ TU Bergakademie Freiberg"
 
-title: "" # Leave empty to use your full name
-lang: en
-icon: ⚛️ # or 🧠
+profile:
+  align: right
+  image: vaibhav_photo.jpg  # Must match the filename in assets/img/
+  image_circular: false     # Set to true for a round crop
+
 
 # Update these to match your actual GitHub URL
 url: https://vaibhavbajpai.github.io
