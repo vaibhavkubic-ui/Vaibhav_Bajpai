@@ -40,9 +40,9 @@ keywords: artificial-intelligence, machine-learning, formal-verification,
 
 lang: en
 
-icon: 🧠
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+title: "" # Leave empty to use your full name
+lang: en
+icon: ⚛️ # or 🧠
 
 # Update these to match your actual GitHub URL
 url: https://vaibhavbajpai.github.io
@@ -255,9 +255,7 @@ jekyll-archives:
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
-# -----------------------------------------------------------------------------
-# Jekyll Scholar
-# -----------------------------------------------------------------------------
+
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -265,12 +263,12 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Bajpai]
-  first_name: [Vaibhav, V.]
+  first_name: [Vaibhav]
 
   style: apa
   locale: en
-  source: /_bibliography/
-  bibliography: papers.bib
+  source: 
+  bibliography:
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
