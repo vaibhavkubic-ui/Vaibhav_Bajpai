@@ -2,50 +2,51 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
 title: # leave blank to use full name automatically
-
 first_name: Vaibhav
 last_name: Bajpai
+
+description: >
+  PhD candidate and Research Assistant at TU Bergakademie Freiberg,
+  specializing in the evaluation of large language models for mathematical
+  reasoning and the development of AI-driven formal verification systems.
+  ProofBench is a research initiative aimed at establishing a rigorous
+  benchmark for evaluating AI systems on mathematical proof generation.
 
 contact_note: >
   I welcome research collaborations and discussions related to AI for
   mathematical reasoning, formal verification, and graph theory
   formalization in Lean 4 (Mathlib). The best way to reach me is via email.
 
-description: >
-  PhD candidate and Research Assistant at TU Bergakademie Freiberg,
-  specializing in the evaluation of large language models for mathematical
-  reasoning and the development of AI-driven formal verification systems.
-  My research focuses on bridging natural language mathematical reasoning
-  with machine-checkable proofs.
-
-  ProofBench is a research initiative aimed at establishing a rigorous
-  benchmark for evaluating AI systems on mathematical proof generation.
-
-  My work involves developing the ProofBench infrastructure and repository,
-  implementing Structured Chain-of-Thought (SCoT) reasoning frameworks,
-  curating datasets of Lean 4 formalizations for research-level theorems,
-  and building evaluation pipelines to benchmark frontier AI models on
-  formal reasoning and proof-generation accuracy.
-
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
   <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 keywords: artificial-intelligence, machine-learning, formal-verification,
           automated-theorem-proving, lean4, mathematical-reasoning,
           proofbench, graph-theory, llm-evaluation
 
-layout: about
-title: about
-extra_main_info: "PhD Candidate @ TU Bergakademie Freiberg"
+# -----------------------------------------------------------------------------
+# Profile & URL
+# -----------------------------------------------------------------------------
 
 profile:
   align: right
-  image: vaibhav_photo.jpg  # Must match the filename in assets/img/
-  image_circular: false     # Set to true for a round crop
+  image: profile.jpg   # Ensure this file exists in assets/img/
+  image_circular: false
+
+# Replace with your actual username from the screenshot
+url: https://vaibhavkubic-ui.github.io 
+baseurl: "" 
+
+# -----------------------------------------------------------------------------
+# Features
+# -----------------------------------------------------------------------------
+
+enable_math: true
+enable_darkmode: true
+last_updated: true
+back_to_top: true
 
 
 # Update these to match your actual GitHub URL
@@ -268,11 +269,10 @@ display_categories: ["external-services"] # these categories will be displayed o
 scholar:
   last_name: [Bajpai]
   first_name: [Vaibhav]
-
   style: apa
   locale: en
-  source: 
-  bibliography:
+  source: /_bibliography/
+  bibliography: papers.bib
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
