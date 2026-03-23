@@ -36,7 +36,7 @@ profile:
 
 # Correct GitHub Pages URL
 url: https://vaibhavkubic-ui.github.io 
-baseurl: "" 
+baseurl:"/Vaibhav_Bajpai" 
 
 last_updated: true
 back_to_top: true
