@@ -35,12 +35,11 @@ profile:
   image_circular: false
 
 # Correct GitHub Pages URL
-url: https://vaibhavkubic-ui.github.io 
-baseurl:"/Vaibhav_Bajpai" 
+url: "https://vaibhavkubic-ui.github.io"
+baseurl: "/Vaibhav_Bajpai"
 
 last_updated: true
 back_to_top: true
-
 # -----------------------------------------------------------------------------
 # Theme & Features
 # -----------------------------------------------------------------------------
