@@ -12,19 +12,18 @@ env:
 jobs:
   lighthouse-badger-easy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
         with:
           # Use GITHUB_TOKEN to avoid manual PAT management
-          token: $
-       {{ secrets.LIGHTHOUSE_BADGER_TOKEN }}
+          token: ${{ secrets.LIGHTHOUSE_BADGER_TOKEN }}
 
       - name: Run Lighthouse Badger 🚀
         uses: myactionway/lighthouse-badger-action@v2.2
         with:
-          token: $
-        {{ secrets.LIGHTHOUSE_BADGER_TOKEN }}
+          token: ${{ secrets.LIGHTHOUSE_BADGER_TOKEN }}
           urls: ${{ env.URLS }}
           repo_branch: ${{ env.REPO_BRANCH }}
 
